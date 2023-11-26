@@ -1,52 +1,57 @@
-body {font-family:'Times New Roman', Times, serif;
-   font-size: 15px; 
+body {  font-family:'Times New Roman', Times, serif;
+        font-size: 15px; 
+        margin: 0%;
 }
+
 
 .img-bg {
-    background-image: url(../img/batman.png) ;
-    background-repeat: no-repeat;
-    height: 361px; 
-    background-position: center;
+        background-image: url(../img/batman.png) ;
+        background-repeat: no-repeat;
+        height: 361px; 
+        background-position: center;
 
 }
 
-div#imginsta {
-    background-image: url(../img/ico_instagram.png) ;
-    background-repeat: no-repeat;
-    height: 20px;
-    width: 20px;
-}
-
-.div imglinkedin{
-    background-image: url(../img/ico_linkedin.png) ;
-    background-repeat: no-repeat;
-  
-
-}
 
 h1, h2 {background-color:gray;
-        color: #005677;}
+        color: #005677;
+    }
 
-h1 {font-size: 35px;}
+    h1 {text-align: center;
+        font-size: 35px;}
 
-h2 {font-size: 30px;}
+    h2 {font-size: 30px;}
 
 li span{font-weight: bold;}
 
-footer{ background-color: #005677;
+footer{ text-align: center;
+        background-color: #005677;
         top: 987px;
         height: 37px;
-        width: auto;
-            
+        width: 1440px;            
 }
 
-div.pie{font-family:'Times New Roman', Times, serif;
-        font-size: 20px;
-        color: #FFFFFF;
-        font-weight: 700; 
-        text-align: center;
-        line-height: 17px;
-      
+footer {font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+     
+                
+}
 
 
+
+.imginsta{  background-image: url(../img/ico_instagram.png);
+            width: 20px;
+            height: 20px;
+            padding: inherit;
+            display: inline;
+     
+}
+
+.imglinkedin{background-image: url(../img/ico_linkedin.png);
+    width: 20px;
+    height: 20px;
+    padding: inherit;
+    display: inline;
 }
